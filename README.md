@@ -43,3 +43,6 @@ La llamada recursiva es especialmente útil para problemas que presentan estas c
 ◈ La solución se puede construir a partir de las soluciones de los subproblemas.
 
 # ¿que es la funcion factorial?
+
+![image](https://github.com/user-attachments/assets/bfe5d31b-bbc6-42f7-b946-a2f832c4e6c6)
+
