@@ -1,8 +1,9 @@
 # recur-facto
 
+# numero factorial que va del 1 al 5: 
 fun numerosDesc(n= int) { if (n<=0) { return } print(n) numerosDesc(n-1) } fun main() { val num=5 mumerosDesc(num) }
 
-Caso Base:
+# Caso Base:
 El caso base en recursividad es el caso más simple de un problema que se puede resolver directamente, sin necesidad de llamar a la función recursiva nuevamente. Es el punto de parada de la recursividad, donde la función deja de llamarse a sí misma.
 
 es importante porque:
@@ -16,7 +17,7 @@ Permite la descomposición del problema: el caso base ayuda a descomponer el pro
 Llamada recursiva
 La llamada recursiva es un mecanismo mediante el cual una función se invoca a sí misma, directa o indirectamente, para resolver un problema. En esencia, una función recursiva se ejecuta de nuevo durante su proceso de ejecución.
 
-Características de la llamada recursiva:
+# Características de la llamada recursiva:
 
 ◈ Autoinvocación: La función se llama a sí misma, permitiendo que se ejecute nuevamente en el contexto de su propia ejecución.
 
@@ -48,7 +49,7 @@ La llamada recursiva es especialmente útil para problemas que presentan estas c
 
 La función factorial es una fórmula matemática representada por el signo de exclamación “!”. En la fórmula Factorial se deben multiplicar todos los números enteros y positivos que hay entre el número que aparece en la fórmula y el número 1.
 
-ejemplo -
+# ejemplo -
 6! = 1x2x3x4x5x6 = 720
 
 en este ejemlo el factorial es 6
