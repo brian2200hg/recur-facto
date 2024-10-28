@@ -41,3 +41,5 @@ La llamada recursiva es especialmente útil para problemas que presentan estas c
 ◈ Los subproblemas guardan similitud con el problema original.
 
 ◈ La solución se puede construir a partir de las soluciones de los subproblemas.
+
+# ¿que es la funcion factorial?
