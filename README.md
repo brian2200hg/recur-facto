@@ -77,7 +77,6 @@ Salida: El resultado es generalmente una nueva función o un valor computado bas
 
 
 
-
 fun factorial(n: Int): Long {
 return if (n == 0 || n == 1) {
     1
@@ -87,4 +86,16 @@ return if (n == 0 || n == 1) {
 }
 
 fun main() { for (i in 1..5) { val resultado = factorial(i) println("El factorial de $i es: $resultado") } }
+
+
+
+fun contarDescendente(n: Int) {
+    if (n < 1) return  // Caso base: cuando n es menor a 1, termina la función
+    println(n)  // Imprime el número actual
+    contarDescendente(n - 1)  // Llama a la función con n - 1
+}
+
+// Llamada a la función comenzando desde 5
+contarDescendente(5)
+
 
